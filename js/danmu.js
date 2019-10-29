@@ -18,7 +18,9 @@ $(document).ready(function(){
                 $("#sent").trigger("click");//trigger触发被选元素的指定事件类型，触发#send事件的click类型
         }
     })
-
+    var getFont = function(){
+        return ((Math.random()*35 <<0))+'px';
+    }
     //获取随机颜色
     var getRandomColor = function(){
         return '#'+('00000'+(Math.random()*0xffffff <<0).toString(16)).substr(-6);
@@ -40,6 +42,7 @@ $(document).ready(function(){
              color:getRandomColor(),    //颜色
              position:"relative",       //不脱离文件流，会被父元素遮挡
              height:25,                 // 调整弹幕高度
+             fontSize: getFont,               
              margin:"-25px 0px",        //让弹幕可重叠，数值等于-height
              left:showWidth+50,        //初始向右偏移位置，加100是解决移动刚开始时的速度慢问题
              top:top+20.67,             //初始向下偏移位置
