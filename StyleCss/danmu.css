@@ -1,0 +1,49 @@
+#container{
+    /*width:700px;*/
+    height:300px;
+    margin:50px 100px;
+    border:solid 2px #d5f095;
+    overflow:hidden;
+}
+.header{
+    background-color:rgb(207, 241, 179);
+}
+
+.header img{
+    height:26px ;
+}
+
+.header a{
+    color:white;
+}
+
+.titleImage{
+    position:relative;
+    left:30px;
+    display:inline-block;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.s_c{
+    width:500px;
+    margin:0 auto;
+}
+#message{
+    width:400px;
+    height:30px;
+    margin:0 auto;
+    position:relative;
+    left:50px;
+    border:solid 2px #d5f095;
+}
+.btn{
+    padding-top:20px;
+    height:30px;
+    margin-left:150px;
+    
+}
+#sent,#clear,#sendmuch{
+    width:100px;
+    border:solid 2px #d5f095;
+}

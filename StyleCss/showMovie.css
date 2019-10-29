@@ -76,7 +76,10 @@ body{
     height:85%;
     width:90%;
 }
-
+.bookcell :hover {
+    border: 1px solid #FFCCCC;
+    opacity: 0.5;
+}
 /*  */
 .footer{
     width:100%;
